@@ -1,0 +1,11 @@
+numero,tipo,estado,precioPorNoche
+1,simple,disponible,125.52
+2,doble,disponible,56.78
+3,suite,ocupada,270.45
+4,simple,ocupada,221.08
+5,doble,disponible,106.24
+6,doble,disponible,106.93
+7,suite,disponible,252.66
+8,doble,disponible,235.43
+9,suite,disponible,167.46
+10,simple,disponible,223.58

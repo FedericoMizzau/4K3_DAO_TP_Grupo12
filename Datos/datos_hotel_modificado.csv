@@ -1,0 +1,59 @@
+Habitaciones: Numero,Tipo,Estado,Precio por noche
+1,simple,disponible,125.52
+2,doble,disponible,56.78
+3,suite,ocupada,270.45
+4,simple,ocupada,221.08
+5,doble,disponible,106.24
+6,doble,disponible,106.93
+7,suite,disponible,252.66
+8,doble,disponible,235.43
+9,suite,disponible,167.46
+10,simple,disponible,223.58
+
+Clientes: ID,Nombre,Apellido,Direccion,Telefono,Email
+1,JUAN,GONZÁLEZ,Calle E 102,555-7845,juan.gonzalez@hotmail.com
+2,MARÍA,RODRÍGUEZ,Calle C 789,555-9557,maria.rodriguez@gmail.com
+3,CARLOS,LÓPEZ,Calle C 789,555-5155,carlos.lopez@gmail.com
+4,ANA,PÉREZ,Calle A 123,555-6336,ana.perez@hotmail.com
+5,LUIS,GÓMEZ,Calle C 789,555-8504,luis.gomez@gmail.com
+6,LUCÍA,FERNÁNDEZ,Calle A 123,555-2746,lucia.fernandez@yahoo.com
+7,PEDRO,MARTÍNEZ,Calle A 123,555-3614,pedro.martinez@hotmail.com
+8,SOFÍA,GARCÍA,Calle A 123,555-2076,sofia.garcia@gmail.com
+9,JORGE,RUIZ,Avenida D 101,555-1654,jorge.ruiz@gmail.com
+10,MARTA,SÁNCHEZ,Calle A 123,555-1622,marta.sanchez@hotmail.com
+
+Reservas: ID,Cliente,Habitacion,Fecha de entrada,Fecha de salida,Cantidad de personas
+1,1,1,2024-11-03,2024-11-13,3
+2,2,2,2024-01-24,2024-01-30,3
+3,3,3,2024-09-26,2024-10-07,1
+4,4,4,2024-08-09,2024-08-19,3
+5,5,5,2024-05-05,2024-05-15,3
+6,6,6,2024-10-25,2024-10-27,4
+7,7,7,2024-11-28,2024-12-12,4
+8,8,8,2024-08-12,2024-08-25,1
+9,9,9,2024-04-28,2024-05-04,1
+10,10,10,2024-04-09,2024-04-19,3
+
+Facturas: ID,Cliente,Reserva,Fecha de emision,Total
+1,1,1,2024-11-14,1255.2
+2,2,2,2024-02-02,340.68
+3,3,3,2024-10-08,2974.95
+4,4,4,2024-08-22,2210.8
+5,5,5,2024-05-16,1062.4
+6,6,6,2024-10-31,213.86
+7,7,7,2024-12-16,3537.24
+8,8,8,2024-08-26,3060.59
+9,9,9,2024-05-05,1004.76
+10,10,10,2024-04-21,2235.8
+
+Empleados: ID,Nombre,Apellido,Cargo,Sueldo
+1,JUAN,GONZÁLEZ,gerente,1293.35
+2,MARÍA,RODRÍGUEZ,recepcionista,1313.17
+3,CARLOS,LÓPEZ,recepcionista,1438.92
+4,ANA,PÉREZ,gerente,1574.55
+5,LUIS,GÓMEZ,mantenimiento,1346.67
+6,LUCÍA,FERNÁNDEZ,gerente,1803.99
+7,PEDRO,MARTÍNEZ,recepcionista,1167.99
+8,SOFÍA,GARCÍA,mantenimiento,1218.74
+9,JORGE,RUIZ,recepcionista,929.32
+10,MARTA,SÁNCHEZ,servicio de limpieza,1084.3
